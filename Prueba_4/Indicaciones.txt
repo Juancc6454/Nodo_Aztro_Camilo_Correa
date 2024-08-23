@@ -1,0 +1,6 @@
+ENTREGA 4 - FOOTER USANDO LIBRERIA DE ICONOS
+Vence el 5 de julio de 2024 23:59
+Instrucciones
+Regístrate en https://fontawesome.com y obtén tu llave de acceso, la cual debes agregar al head de tu HTML.
+Realiza la Maquetación (HTML + CSS) necesaria para recrear la vista que esta adjunta a esta actividad.
+Finalmente realiza la entrega a través de tu repositorio dejando el link.

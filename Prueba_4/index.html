@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6169eb1f6a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Formulario de Inscripción</h1>
+    <div class="form-container">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Camilo">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Correa">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" placeholder="email@email.com">
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Cr 00 Cl 00 - 00">
+            <label for="pais">País:</label>
+            <select id="pais" name="pais">
+                <option value="colombia">Colombia</option>
+            </select>
+            <label for="departamento">Departamento:</label>
+            <select id="departamento" name="departamento">
+                <option value="antioquia">Antioquia</option>
+                <option value="cundinamarca">Cundinamarca</option>
+                <option value="valle">Valle del Cauca</option>
+                <option value="atlantico">Atlántico</option>
+            </select>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+            <label for="descripcion">Descripción Personal:</label>
+            <textarea id="descripcion" name="descripcion" maxlength="300"></textarea>
+        </fieldset>
+    </div>
+    <div class="buttons">
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+    </div>
+    <footer>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook" style="color: #ff0000;"></i></a>
+        <a href="https://www.x.com" target="_blank"><i class="fab fa-x-twitter" style="color: #ff0000;"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram" style="color: #ff0000;"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube" style="color: #ff0000;"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin" style="color: #ff0000;"></i></a>
+    </footer>
+</body>
+</html>
