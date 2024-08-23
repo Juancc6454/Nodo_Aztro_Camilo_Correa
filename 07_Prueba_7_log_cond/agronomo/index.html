@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pesticida y Cerca Eléctrica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Calculadora de Pesticida y Cerca Eléctrica</h1>
+        <form id="calculatorForm">
+            <fieldset>
+                <label for="baseMayor">Base Mayor (m):</label>
+                <input type="number" id="baseMayor" required>
+                
+                <label for="baseMenor">Base Menor (m):</label>
+                <input type="number" id="baseMenor" required>
+                
+                <label for="altura">Altura (m):</label>
+                <input type="number" id="altura" required>
+                
+                <label for="lado1">Lado 1 (m):</label>
+                <input type="number" id="lado1" required>
+                
+                <label for="lado2">Lado 2 (m):</label>
+                <input type="number" id="lado2" required>
+                
+                <div class="buttons">
+                    <button type="button" onclick="calcular()">Calcular</button>
+                    <button type="button" onclick="location.href='../index.html'">Regresar al Menú Principal</button>
+                </div>
+            </fieldset>
+        </form>
+        <div id="resultados">
+            <p id="litrosPesticida"></p>
+            <p id="metrosCerca"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

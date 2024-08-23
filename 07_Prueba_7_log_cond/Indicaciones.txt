@@ -1,0 +1,17 @@
+ENTREGA 7 - LOGICA SECUENCIAL Y CONDICIONAL
+Vence el 13 de julio de 2024 23:59
+Instrucciones
+Utiliza formularios HTML y JavaScript para dar solución a las diferentes situaciones  plateadas a continuación, recuerda que debes desarrollar la interfaz agregando CSS del punto 3.
+Un nadador necesita conocer el promedio final de tiempo que gasta en recorrer una piscina de 100 metros, sabiendo que en el día el realiza cinco pruebas medidas en segundos.
+
+Un agrónomo desea una forma rápida de encontrar cuantos litros de pesticida debe aplicar a un conjunto de terrenos de forma trapezoidal, si por cada metro cuadrado debe aplicar 1.5 litros de pesticida. Además le piden que determine cuantos metros de cerca eléctrica son necesarios para rodear todo el terreno.
+
+Un maestro de obra quiere emplear una forma rápida de poder calcular el numero de ladrillo que necesita para una pared ¿Puedes ayudarlo? (Incluir interfaz)
+
+Un Medico desea utilizar un sitio web que le muestre a un persona su estado de salud, dependiendo del índice de masa corporal a partir de su peso y altura, al mismo tiempo mostrar en que rango de encuentra, delgado, normal, obeso, etc. (ver la tabla). ANEXO: utiliza condicionales para determinar el rango en el cual se encuentra la persona una vez calcules su Índice de Masa Corporal (IMC), recuerda de debes inicialmente calcular el IMC y a través de su valor determinar con condicionales en que rango se encuentra el paciente.  Adjunto encontraras la formula para hacer el calculo y las dos tablas de rangos vistas en clase, puedes usar cualquiera de las dos.
+
+
+
+
+Un gerente de una tienda debe liquidar a sus empleados según el numero de días trabajados en el mes y horas extras. Además debe descontar la salud (4%) y la pensión (4%), así como un deducible del 3% referente a alimentación. Valor por día trabajado: $43000, Valor Hora Extra Diurna $6915, Nocturna $9681 y festivos $11064.
+Mi trabajo

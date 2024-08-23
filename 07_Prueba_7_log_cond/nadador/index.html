@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio de Tiempo del Nadador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Promedio de Tiempo del Nadador</h1>
+        <form id="nadadorForm">
+            <fieldset>
+                <label for="prueba1">Prueba 1 (segundos):</label>
+                <input type="number" id="prueba1" required>
+                
+                <label for="prueba2">Prueba 2 (segundos):</label>
+                <input type="number" id="prueba2" required>
+                
+                <label for="prueba3">Prueba 3 (segundos):</label>
+                <input type="number" id="prueba3" required>
+                
+                <label for="prueba4">Prueba 4 (segundos):</label>
+                <input type="number" id="prueba4" required>
+                
+                <label for="prueba5">Prueba 5 (segundos):</label>
+                <input type="number" id="prueba5" required>
+                
+                <div class="buttons">
+                    <button type="button" onclick="calcularPromedio()">Calcular Promedio</button>
+                    <button type="button" onclick="location.href='../index.html'">Regresar al Menú Principal</button>
+                </div>
+            </fieldset>
+        </form>
+        <div id="resultados">
+            <p id="promedioTiempo"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
