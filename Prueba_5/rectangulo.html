@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Rectángulo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="circulo.html">Círculo</a></li>
+        </ul>
+    </nav>
+    <section class="form-container">
+        <h1>Calculadora de Rectángulo</h1>
+        <img src="images/rectangulo.png" alt="Rectángulo">
+        <label for="base">Base "b" (cm):</label>
+        <input type="number" id="base" required>
+        <label for="altura">Altura "h" (cm):</label>
+        <input type="number" id="altura" required>
+        <button onclick="calcularRectangulo()">Calcular</button>
+        <p>Área: <span id="areaRect"></span> cm²</p>
+        <p>Perímetro: <span id="perimetroRect"></span> cm</p>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

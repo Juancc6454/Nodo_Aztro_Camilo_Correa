@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Círculo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="rectangulo.html">Rectángulo</a></li>
+        </ul>
+    </nav>
+    <section class="form-container">
+        <h1>Calculadora de Círculo</h1>
+        <img src="images/circulo.jpg" alt="Círculo">
+        <label for="radio">Radio "R" (cm):</label>
+        <input type="number" id="radio" required>
+        <button onclick="calcularCirculo()">Calcular</button>
+        <p>Área: <span id="areaCirc"></span> cm²</p>
+        <p>Perímetro: <span id="perimetroCirc"></span> cm</p>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
