@@ -1,0 +1,4 @@
+ENTREGA 6 - GALERIA DE IMAGENES APLICANDO DISPLAY GRID
+Vence el 20 de julio de 2024 23:59
+Instrucciones
+Crea una galería de imágenes aplicando display: Grid teniendo como base la distribución que se observa en la imagen, puedes utilizar una temática de cine y crear un galería de películas utilizando sus poster, por otra parte puedes pensar en un top de jugadores de la copa américa, animes 2024, es decir, escoge la temática que mas te guste.
